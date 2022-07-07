@@ -17,6 +17,10 @@ changelog: true
 
 2022-06-24
 
+### 🚨 Important attention
+
+- **This version has refactored and optimized the `Typography` component beyond omission. In order to avoid the change of the dom structure by default, the default value of `ellipsis.cssEllipsis` has been changed to `false`. For specific reasons [About exceeding omission](https://arco.design/react/components/typography#%E5%85%B3%E4%BA%8E%E8%B6%85%E5%87%BA%E7%9C%81%E7%95%A5)**
+
 ### 💎 Enhancement
 
 - Optimized the display of the `Transfer` component in `simple` mode for the current number of options in the list.([#1045](https://github.com/arco-design/arco-design/pull/1045))
